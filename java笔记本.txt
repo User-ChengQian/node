@@ -1,0 +1,21 @@
+//1先指定java.util下的scanner扫描器
+import java.util.Scanner;
+//2获取扫描器
+Scanner sc=new Scanner(System.in);
+//3获得输入的数据(分为不同的数据类型,nextInt,next,nextDouble....)且赋值给变量
+//字符串型String a=sc.next();
+//双浮点型Double b=sc.nextDouble;
+//整数型int c=sc.nextInt();
+
+
+依靠Math这个类来生成一个随机数,Math.random()生成一个double值[0.0,1.0)
+Math.random()*6=>[0.0,6.0)
+变为1-6的区间
+(int)(Math.random()*6)=>[0,5]
+(int)(Math.random()*6)+1=>[1,6]
+[36,92]=>[0,56]+36=>(int)(Math.random()*57)+36 
+//判断键盘录入数据是不是int类型
+if(sc.hasNextInt()==true){
+}else{}
+switch相邻分支逻辑一样的,那就可 以只保留最后一个分支,上面的都可以上去不写了
+do-while  while for 循环一样高
